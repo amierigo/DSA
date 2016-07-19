@@ -1,0 +1,80 @@
+//peudoCode
+
+int Qsize = 10 
+int queue[] = new int[Qsize]
+int queue[] = {1,2,3,4,5,6,7,8,9,10}
+int numberOfItems
+
+
+void show() {
+    for (i = 0; i<=Qsize; i++ )
+    output ("queue [" + i + "]"{} + queue[1])
+}
+
+boolean isFull() {
+    if (numberOfItems==Qsize) 
+    output (queue is full)
+    return (true)
+    else
+    return (false)
+}
+
+boolean isEmpty() {
+    if (numberOfItems==0) 
+    output ("queue is empty")
+    return (true)
+    else
+    return (false)
+}
+
+int enqueue(int num = 15){
+    for(int a=0;a<value;a++){
+    	System.out.print ("Tying to enqueue" + num + "..") ;
+         {
+        queue[numberOfItems] = num ;
+        output("\t" +"Added" + num );
+        numbeOfItems++
+        } else {
+        if (.isFull())
+        System.out.print("Failed to enqueue"  + num)
+        return false        }        
+       }
+
+
+int dequeue(int num = 4){
+    for(int a=0;a<num;a++){
+    	System.out.print ("Tying to dequeue" + num + "..") ;
+       {
+        queue[numberOfItems] = num ;
+        output("\t" +"Added" + num );
+        numbeOfItems++
+        } else {
+        if (.isFull()) 
+        System.out.print("Failed to dequeue"  + num)
+         }        
+       }
+
+int rearrange() {
+  int newQueue = 0;
+        for(int b=num;b<Qsize;b++){
+            temp[newQueue] = queue[b]
+            System.out.println(temp[newQueue])
+            newQueue++;
+        }
+        for(int c=0;c<10;c++){
+            queue[c] = Temp[c]
+            System.out.println("Arrange: " + queue[c])
+        }
+        return 0;
+    }
+
+public int peekFront() {
+	front = 0
+    return this.queue[0];
+        }
+
+ public int peekRear() {
+ 	maxSize = Qsize
+    return this.queue[numberOfItems-1];
+        }
+
