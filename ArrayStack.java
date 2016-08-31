@@ -1,4 +1,4 @@
-package arraystack;
+
 public class ArrayStack {
 
   int capacity;
