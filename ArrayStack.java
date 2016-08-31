@@ -1,4 +1,10 @@
-
+/****************************************************************
+ * SOURCE: ArrayQueue
+ * AUTHOR NAME : Cristine Amie Rigo
+ * GITHUB URL :https://github.com/amierigo/ArrayQueue
+ * DATE : August 24, 2016
+ * ******************/
+ 
 public class ArrayStack {
 
   int capacity;
