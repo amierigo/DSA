@@ -19,19 +19,18 @@ public class BinarySearch {
                 middle = left + (right - left) / 2;
             if (array[middle] == find){
                 System.out.println();
-                System.out.println( "Found! \n" + find + " is at " + "array [" + (middle +1) + "]");
+                System.out.println( "Found! \n" + find + " is at " + "array [" + (middle + 1) + "]");
             break; 
             }else if (find < array[middle]) {
                 right = middle - 1;
             }else {
                 left = middle + 1;
             }
-            break;
         } 
-            if (left < array.length)
+            if (middle <= array.length)
             System.out.println("Not Found! \n" + find + " is not in the array");
      }
-     
+
     public void bubbleSorting(int size) {
         array = new int[size];
         Random rand = new Random();
@@ -58,6 +57,7 @@ public class BinarySearch {
        }
        System.out.println("\n\n");
     }
+   
     public static void main(String[] args) {
         int array [];
         Scanner input = new Scanner(System.in);
