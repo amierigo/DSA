@@ -1,9 +1,7 @@
-package totalmax;
-
 import java.util.Scanner;
 import java.util.Random;
 
-public class TotalMax {
+public class SumAveMax {
     int array [] ;
     public int sum = 0; 
     public int max = 0;
